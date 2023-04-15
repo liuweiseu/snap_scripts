@@ -26,50 +26,14 @@ adc_chip = 1
 
 # read adc data from snapshot
 #
-'''
-def read_snapshot(snap):
-    # trig the snapshot
-    snap.registers['adc_trig'].write_int(0)
-    snap.registers['adc_trig'].write_int(1)
-    # read adc data from snapshot
-    snap.snapshots['adc_snap'].arm()
-    data = snap.snapshots['adc_snap'].read()['data']
-    adc_data = data['data']
-    # get 8bit data from 64bit data
-    adc_raw = [[],[],[],[],[],[],[],[]]
-    for i in range(len(adc_data)):
-        for j in range(8):
-            tmp = adc_data[i] & 0xff
-            if(tmp < 128):
-                adc_raw[j].append(tmp)
-            else:
-                adc_raw[j].append(tmp-256)
-            adc_data[i] = adc_data[i]>>8
-    # combine the 4 data streams into 2 streams
-    # this is for 500MSps
-    # TODO: we need to think about 1000MSps
-    adc_a_i = []
-    adc_a_q = []
-    adc_b_i = []
-    adc_b_q = []
-    for i in range(len(adc_data)):
-        adc_a_i.append(adc_raw[3][i])
-        adc_a_i.append(adc_raw[2][i])
-        adc_a_q.append(adc_raw[1][i])
-        adc_a_q.append(adc_raw[0][i])
-        adc_b_i.append(adc_raw[7][i])
-        adc_b_i.append(adc_raw[6][i])
-        adc_b_q.append(adc_raw[5][i])
-        adc_b_q.append(adc_raw[4][i])
-    return adc_a_i, adc_a_q, adc_b_i, adc_b_q
-'''
 def read_snapshot(snap):
     adc=SnapAdc(snap, devname, devinfo)
     adc.snapshot()
     ss = adc.readRAM()
-    adc_d = ss[adc_chip]
-    adc_ch=adc_d.reshape(512,2)
-    adc_ch=adc_ch.transpose()
+    adc_d = np.array(ss[adc_chip])
+    adc_d=adc_d[:,[0,2,1,3,4,6,5,7]]
+    adc_d = adc_d.reshape(512,2)
+    adc_ch=adc_d.transpose()
     return adc_ch[0], adc_ch[1]
 # check the adc rms
 #
