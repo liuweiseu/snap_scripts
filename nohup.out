@@ -1,0 +1,111 @@
+[W 2023-04-14 18:01:43.511 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2023-04-14 18:01:43.517 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-04-14 18:01:43.521 ServerApp] Package jupyter_server_fileid took 0.0033s to import
+[I 2023-04-14 18:01:43.530 ServerApp] Package jupyter_server_terminals took 0.0083s to import
+[I 2023-04-14 18:01:43.562 ServerApp] Package jupyter_server_ydoc took 0.0309s to import
+[I 2023-04-14 18:01:43.562 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-04-14 18:01:43.564 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-04-14 18:01:43.565 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-04-14 18:01:43.565 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-04-14 18:01:43.569 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-04-14 18:01:43.572 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-04-14 18:01:43.574 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2023-04-14 18:01:43.578 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-04-14 18:01:43.581 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-04-14 18:01:43.883 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-04-14 18:01:44.152 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-04-14 18:01:44.152 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-04-14 18:01:44.153 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /data/Wei/casper_hdl/snap_scripts
+[I 2023-04-14 18:01:44.153 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/wei/.local/share/jupyter/file_id_manager.db
+[I 2023-04-14 18:01:44.153 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-04-14 18:01:44.153 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-04-14 18:01:44.154 FileIdExtension] Attached event listeners.
+[I 2023-04-14 18:01:44.154 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-04-14 18:01:44.155 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-04-14 18:01:44.155 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-04-14 18:01:44.156 LabApp] JupyterLab extension loaded from /home/wei/.conda/envs/py38/lib/python3.8/site-packages/jupyterlab
+[I 2023-04-14 18:01:44.156 LabApp] JupyterLab application directory is /home/wei/.conda/envs/py38/share/jupyter/lab
+[I 2023-04-14 18:01:44.159 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-04-14 18:01:44.164 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-04-14 18:01:44.164 ServerApp] Serving notebooks from local directory: /data/Wei/casper_hdl/snap_scripts
+[I 2023-04-14 18:01:44.164 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-04-14 18:01:44.164 ServerApp] http://localhost:8888/lab
+[I 2023-04-14 18:01:44.164 ServerApp]     http://127.0.0.1:8888/lab
+[I 2023-04-14 18:01:44.164 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2023-04-14 18:01:46.138 ServerApp] Uncaught exception GET /lab/api/settings?1681520505948 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/lab/api/settings?1681520505948', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+    tornado.iostream.StreamClosedError: Stream is closed
+[W 2023-04-14 18:01:47.675 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-04-14 18:01:56.796 ServerApp] New terminal with automatic name: 1
+[I 2023-04-14 18:02:23.510 ServerApp] Kernel started: 632a006e-b41e-469e-a2e6-8cc28b93422f
+[I 2023-04-14 18:02:24.034 ServerApp] Connecting to kernel 632a006e-b41e-469e-a2e6-8cc28b93422f.
+[I 2023-04-14 18:02:24.041 ServerApp] Connecting to kernel 632a006e-b41e-469e-a2e6-8cc28b93422f.
+[I 2023-04-14 18:02:24.053 ServerApp] Connecting to kernel 632a006e-b41e-469e-a2e6-8cc28b93422f.
+[W 2023-04-14 18:02:24.096 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7f736011e820>
+[I 2023-04-14 18:02:37.826 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 18:02:55.484 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 18:04:06.670 ServerApp] Saving file at /ipynb/snap_init.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f2e49a5c7f0>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-14 18:06:06.708 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 18:08:06.740 ServerApp] Saving file at /ipynb/snap_init.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f2e9849dbb0>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-14 18:10:06.773 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 18:12:06.810 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 22:22:12.486 ServerApp] 302 GET / (@127.0.0.1) 0.52ms
+[W 2023-04-14 22:22:14.872 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-04-14 22:22:19.314 ServerApp] New terminal with automatic name: 2
+[I 2023-04-14 23:03:21.281 ServerApp] Connecting to kernel 632a006e-b41e-469e-a2e6-8cc28b93422f.
+[I 2023-04-14 23:03:27.978 ServerApp] Saving file at /ipynb/snap_init.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f2e49a10910>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-14 23:05:28.024 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 23:07:28.063 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 23:28:27.233 ServerApp] Saving file at /ipynb/snap_init.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f2e48054ac0>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-14 23:30:27.279 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 23:31:03.728 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 23:33:03.761 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 23:40:12.320 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-14 23:40:48.953 ServerApp] Saving file at /ipynb/snap_init.ipynb
