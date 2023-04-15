@@ -151,3 +151,6 @@ katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
 [I 2023-04-15 11:23:52.714 ServerApp] Saving file at /ipynb/snap_init.ipynb
 [I 2023-04-15 11:25:52.759 ServerApp] Saving file at /ipynb/snap_init.ipynb
 [I 2023-04-15 11:27:52.800 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-15 12:03:52.853 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-15 12:05:52.909 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-15 12:06:19.307 ServerApp] Saving file at /ipynb/snap_init.ipynb
