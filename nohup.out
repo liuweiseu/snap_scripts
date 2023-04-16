@@ -154,3 +154,69 @@ katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
 [I 2023-04-15 12:03:52.853 ServerApp] Saving file at /ipynb/snap_init.ipynb
 [I 2023-04-15 12:05:52.909 ServerApp] Saving file at /ipynb/snap_init.ipynb
 [I 2023-04-15 12:06:19.307 ServerApp] Saving file at /ipynb/snap_init.ipynb
+[I 2023-04-16 00:44:03.301 ServerApp] Kernel started: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:44:04.478 ServerApp] Connecting to kernel 87f7f6d0-4ade-463c-8017-e9e35fd768f5.
+[I 2023-04-16 00:44:04.494 ServerApp] Connecting to kernel 87f7f6d0-4ade-463c-8017-e9e35fd768f5.
+[I 2023-04-16 00:44:04.515 ServerApp] Connecting to kernel 87f7f6d0-4ade-463c-8017-e9e35fd768f5.
+[W 2023-04-16 00:44:04.569 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7f7360811cd0>
+[I 2023-04-16 00:45:58.334 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 00:47:58.381 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 00:49:58.417 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 00:50:26.481 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f11c79ed310>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-16 00:52:26.524 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 00:54:26.566 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 00:55:48.620 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 00:57:48.660 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 00:58:19.554 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:58:22.678 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:58:23.852 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:58:25.049 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:58:25.374 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:58:25.864 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:03.624 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:06.812 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:11.376 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:12.636 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:13.261 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:13.633 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:13.911 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:14.245 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:14.482 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:15.487 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 00:59:48.703 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:32:37.556 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f11746be2e0>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-16 01:34:37.600 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:36:37.638 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:38:37.673 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:40:33.602 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 01:40:35.636 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 01:40:36.396 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 01:40:36.624 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 01:40:37.050 ServerApp] Kernel interrupted: 87f7f6d0-4ade-463c-8017-e9e35fd768f5
+[I 2023-04-16 01:40:37.714 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:42:37.757 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:44:37.806 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:46:37.854 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 01:52:37.908 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
