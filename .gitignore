@@ -1,2 +1,3 @@
 nohup.out
 ipynb/.ipynb_checkpoints/*
+ipynb/*.log

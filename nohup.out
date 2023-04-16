@@ -220,3 +220,27 @@ katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
 [I 2023-04-16 01:44:37.806 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
 [I 2023-04-16 01:46:37.854 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
 [I 2023-04-16 01:52:37.908 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 11:53:20.523 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f116c5bf9a0>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-16 11:55:20.579 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 11:57:20.631 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 11:59:20.678 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 12:01:20.740 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 12:03:20.788 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 12:27:20.844 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 12:29:20.897 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 12:31:20.949 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 12:34:51.212 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 13:02:51.255 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 13:04:51.313 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-16 13:07:34.748 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
