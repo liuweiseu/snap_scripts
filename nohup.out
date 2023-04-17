@@ -296,3 +296,17 @@ katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
 [I 2023-04-16 21:43:07.591 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
 [I 2023-04-16 21:44:10.347 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
 [I 2023-04-16 21:47:23.062 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-17 12:32:42.304 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+ERROR:tornado.application:Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f115e22e610>>, <Future finished exception=KatcpClientError("Failed to connect to ('192.168.2.100', 69)")>)
+Traceback (most recent call last):
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    ret = callback()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/ioloop.py", line 764, in _discard_future_result
+    future.result()
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/tornado/gen.py", line 782, in run
+    yielded = self.gen.send(value)
+  File "/home/wei/.conda/envs/py38/lib/python3.8/site-packages/katcp/client.py", line 682, in _install
+    raise KatcpClientError("Failed to connect to {0!r}"
+katcp.core.KatcpClientError: Failed to connect to ('192.168.2.100', 69)
+[I 2023-04-17 12:34:42.357 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
+[I 2023-04-17 12:36:26.628 ServerApp] Saving file at /ipynb/snap_hdl_pfb.ipynb
